@@ -11,9 +11,9 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
-API_ID = int(environ['API_ID', '27382550'])
-API_HASH = environ['API_HASH', 'c428034cb811de290315501d8e3c82b5']
-BOT_TOKEN = environ['BOT_TOKEN','7726811222:AAE5-CC1q1XcFvHENLTazx7XovD6ULKFqhM']
+API_ID = int(environ['API_ID'])
+API_HASH = environ['API_HASH']
+BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEB_SUPPORT = bool(environ.get("WEBHOOK", 'True')) # for web support on/off
